@@ -18,11 +18,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:textSize="28sp"
-        android:textColor="#F0F8FF"/>
+        android:textColor="#F0F8FF"
+        android:paddingTop="16dp" />
     <Button
         android:text="send greetings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"/>
 </RelativeLayout>
