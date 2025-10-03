@@ -12,11 +12,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:textSize="28sp"/>
+        android:textSize="28sp"
+        android:textColor="#F0F8FF"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/androidparty" />
+        android:src="@drawable/androidparty"
+        android:scaleType="centerCrop"/>
     <Button
         android:text="send greetings"
         android:layout_width="wrap_content"
